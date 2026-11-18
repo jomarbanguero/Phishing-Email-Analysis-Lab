@@ -1,7 +1,7 @@
-# 🔐 Phishing Email Analysis Lab
+# Phishing Email Analysis Lab
 ### Python-Based Email Security Investigation & Automated Phishing Detection
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates a hands-on phishing email investigation using Python, email header analysis, and automated security detection techniques.
 
@@ -22,7 +22,7 @@ The goal of this project was to gain practical experience with email security, p
 - **GitHub:** Version control and project documentation
 - **Markdown:** Automated security investigation reports
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Investigate simulated phishing emails.
 - Examine email headers and sender information.
@@ -53,7 +53,7 @@ Three fictional email scenarios were created:
 
 The project was organized into folders to keep email samples, reports, and investigation evidence separate.
 
-**📸 SCREENSHOT 1 — LAB FOLDER STRUCTURE**
+** SCREENSHOT 1 — LAB FOLDER STRUCTURE**
 
 **What to upload:** A screenshot of VS Code showing the `samples`, `reports`, and `screenshots` folders.
 
@@ -94,7 +94,7 @@ I investigated:
 
 I examined the relationship between sender addresses, reply-to domains, authentication results, and message content.
 
-**📸 SCREENSHOT 3 — EMAIL HEADER ANALYSIS**
+** SCREENSHOT 3 — EMAIL HEADER ANALYSIS**
 
 **What to upload:** A screenshot of `email_01.txt` displaying its `From`, `Reply-To`, `Return-Path`, and `Authentication-Results` headers.
 
@@ -113,7 +113,7 @@ The investigation focused on several indicators commonly associated with phishin
 - Supplied authentication failures
 - Requests for sensitive information
 
-**📸 SCREENSHOT 4 — PHISHING INVESTIGATION FINDINGS**
+** SCREENSHOT 4 — PHISHING INVESTIGATION FINDINGS**
 
 **What to upload:** A screenshot of the Markdown preview of `reports/email_02_analysis.md` showing the suspicious indicators and authentication findings.
 
@@ -127,7 +127,7 @@ Each email was evaluated based on its available headers and message content.
 
 Emails 01 and 02 demonstrated phishing-like characteristics, while Email 03 contained fewer suspicious indicators.
 
-**📸 SCREENSHOT 5 — INVESTIGATION SUMMARY**
+** SCREENSHOT 5 — INVESTIGATION SUMMARY**
 
 **What to upload:** A screenshot of the Markdown preview of `reports/investigation_summary.md` showing the comparison table for all three emails.
 
@@ -158,7 +158,7 @@ The analyzer was built using Python's standard library.
 - Calculates heuristic risk scores
 - Generates automated Markdown investigation reports
 
-**📸 SCREENSHOT 6 — PYTHON ANALYZER CODE**
+** SCREENSHOT 6 — PYTHON ANALYZER CODE**
 
 **What to upload:** A screenshot of `email_analyzer.py` in VS Code showing the detection rules, risk scoring logic, and classification thresholds.
 
@@ -172,7 +172,7 @@ After developing the analyzer, I executed it against the three fictional email s
 
 The program identified configured phishing indicators and calculated a risk score for each message.
 
-**📸 SCREENSHOT 7 — AUTOMATED DETECTION RESULTS**
+** SCREENSHOT 7 — AUTOMATED DETECTION RESULTS**
 
 **What to upload:** A screenshot of the VS Code terminal after running `python3 email_analyzer.py`, showing the three emails and their risk scores.
 
@@ -194,7 +194,7 @@ The report is saved at:
 
 `reports/automated_analysis.md`
 
-**📸 SCREENSHOT 8 — AUTOMATED INVESTIGATION REPORT**
+** SCREENSHOT 8 — AUTOMATED INVESTIGATION REPORT**
 
 **What to upload:** A screenshot of `automated_analysis.md` in Markdown Preview, showing the automated summary table.
 
@@ -276,7 +276,7 @@ Structured reports help explain findings and communicate security assessments.
 
 ---
 
-# 💻 How to Run the Project
+# How to Run the Project
 
 ## Requirements
 
@@ -312,7 +312,7 @@ The program displays findings in the terminal and generates a report at:
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```text
 Phishing-Email-Analysis-Lab/
@@ -346,7 +346,7 @@ Phishing-Email-Analysis-Lab/
 
 ---
 
-# ⚠️ Project Limitations
+# Project Limitations
 
 - All email samples and authentication results are fictional.
 - The analyzer does not independently validate SPF, DKIM, or DMARC.
@@ -357,7 +357,7 @@ Phishing-Email-Analysis-Lab/
 
 ---
 
-# 🧠 Skills Demonstrated
+# Skills Demonstrated
 
 **Cybersecurity**
 - Phishing email
