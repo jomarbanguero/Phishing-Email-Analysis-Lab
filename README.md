@@ -13,7 +13,7 @@ The goal of this project was to gain practical experience with email security, p
 
 ---
 
-## 🛠️ Technologies & Tools Used
+## Technologies & Tools Used
 
 - **Python 3:** Email parsing, automation, and risk scoring
 - **Visual Studio Code:** Development and testing
@@ -59,7 +59,7 @@ The project was organized into folders to keep email samples, reports, and inves
 
 **Save as:** `01-lab-structure.png`
 
-![Screenshot 1 - Lab Folder Structure](screenshots/01-lab-structure.png)
+![Screenshot 1 - Lab Folder Structure](https://i.imgur.com/St75zSV.png)
 
 ## 1.2 Suspicious Email Sample
 
@@ -73,7 +73,7 @@ The message contained urgency, an account suspension warning, and an external ve
 
 **Save as:** `02-phishing-email-analysis.png`
 
-![Screenshot 2 - Suspicious Email](screenshots/02-phishing-email-analysis.png)
+![Screenshot 2 - Suspicious Email](https://i.imgur.com/bK8nDog.png)
 
 ---
 
@@ -100,7 +100,7 @@ I examined the relationship between sender addresses, reply-to domains, authenti
 
 **Save as:** `03-email-header-analysis.png`
 
-![Screenshot 3 - Email Header Analysis](screenshots/03-email-header-analysis.png)
+![Screenshot 3 - Email Header Analysis](https://i.imgur.com/Z7Kp3Ez.png)
 
 ## 2.2 Identifying Phishing Indicators
 
@@ -119,7 +119,7 @@ The investigation focused on several indicators commonly associated with phishin
 
 **Save as:** `04-phishing-findings.png`
 
-![Screenshot 4 - Phishing Findings](screenshots/04-phishing-findings.png)
+![Screenshot 4 - Phishing Findings](https://i.imgur.com/CxsweN3.png)
 
 ## 2.3 Manual Investigation Summary
 
@@ -133,7 +133,7 @@ Emails 01 and 02 demonstrated phishing-like characteristics, while Email 03 cont
 
 **Save as:** `05-investigation-summary.png`
 
-![Screenshot 5 - Investigation Summary](screenshots/05-investigation-summary.png)
+![Screenshot 5 - Investigation Summary](https://i.imgur.com/gasqGcU.png)
 
 ---
 
@@ -164,7 +164,7 @@ The analyzer was built using Python's standard library.
 
 **Save as:** `06-python-analyzer.png`
 
-![Screenshot 6 - Python Analyzer](screenshots/06-python-analyzer.png)
+![Screenshot 6 - Python Analyzer](https://i.imgur.com/HFqti79.png)
 
 ## 3.2 Automated Email Investigation
 
@@ -178,7 +178,7 @@ The program identified configured phishing indicators and calculated a risk scor
 
 **Save as:** `07-detection-results.png`
 
-![Screenshot 7 - Detection Results](screenshots/07-detection-results.png)
+![Screenshot 7 - Detection Results](https://i.imgur.com/4w6NBUY.png)
 
 ## 3.3 Automated Investigation Reporting
 
@@ -200,7 +200,7 @@ The report is saved at:
 
 **Save as:** `08-automated-report.png`
 
-![Screenshot 8 - Automated Report](screenshots/08-automated-report.png)
+![Screenshot 8 - Automated Report](https://i.imgur.com/Tb34zCA.png)
 
 ---
 
@@ -242,17 +242,17 @@ These results are educational risk classifications rather than confirmed malicio
 
 The final test confirmed that the analyzer processed all three sample emails and generated the expected risk classifications.
 
-**📸 SCREENSHOT 9 — FINAL VALIDATION TEST**
+** SCREENSHOT 9 — FINAL VALIDATION TEST**
 
 **What to upload:** A screenshot of the terminal after the final successful run, showing scores of 6, 11, and 0.
 
 **Save as:** `09-validation-test.png`
 
-![Screenshot 9 - Final Validation](screenshots/09-validation-test.png)
+![Screenshot 9 - Final Validation](https://i.imgur.com/Ufx8yBT.png)
 
 ---
 
-# 📊 Key Findings
+# Key Findings
 
 ### Email Authentication
 
